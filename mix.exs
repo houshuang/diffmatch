@@ -27,6 +27,6 @@ defmodule Diffmatch.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    []
+      [{:multidef, path: "../survey/deps/multidef"}]
   end
 end

@@ -67,6 +67,5 @@ defmodule Prelude.Map do
   def append(map, key, val) do
     Map.update(map, key, [val], fn x -> List.insert_at(x, 0, val) end)
   end
-
 end
 
